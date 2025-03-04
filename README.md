@@ -1,4 +1,8 @@
 📬 Mail - A Single-Page Email Client
+
+🌍 Live Demo
+🔗 Try the App Here https://mail-client-l8qu.onrender.com
+
 📖 Overview
 Mail is a single-page web application built using Django, JavaScript, HTML, and CSS. It simulates an email client where users can send, receive, view, archive, and reply to emails. The app dynamically updates its UI using JavaScript, allowing smooth navigation between mailboxes without reloading the page.
 
