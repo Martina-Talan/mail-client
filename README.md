@@ -1,17 +1,17 @@
 ## 📧 Mail - A Single-Page Email Client
 🔗 Live Demo: Try the App Here
 
-#### 📜 Overview
+### 📜 Overview
 Mail is a single-page web application built using Django, JavaScript, HTML, and CSS. It simulates an email client where users can send, receive, view, archive, and reply to emails. The app dynamically updates its UI using JavaScript, allowing smooth navigation between mailboxes without reloading the page.
 
-🚀 Features
-✅ User Authentication – Register and log in to your account.
-✅ Compose Emails – Send emails to other registered users.
-✅ Mailbox System – View emails in Inbox, Sent, and Archived mailboxes.
-✅ Read/Unread Status – Mark emails as read or unread.
-✅ Archive/Unarchive Emails – Organize your inbox efficiently.
-✅ Reply to Emails – Easily respond to received messages.
-✅ Single Page Navigation – Uses JavaScript to update views dynamically.
+### 🚀 Features
+##### ✅ User Authentication – Register and log in to your account.
+##### ✅ Compose Emails – Send emails to other registered users.
+##### ✅ Mailbox System – View emails in Inbox, Sent, and Archived mailboxes.
+##### ✅ Read/Unread Status – Mark emails as read or unread.
+##### ✅ Archive/Unarchive Emails – Organize your inbox efficiently.
+##### ✅ Reply to Emails – Easily respond to received messages.
+##### ✅ Single Page Navigation – Uses JavaScript to update views dynamically.
 
 🛠️ Installation & Setup
 1️⃣ Clone the Repository
