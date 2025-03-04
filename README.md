@@ -1,4 +1,4 @@
-📧 Mail - A Single-Page Email Client
+## 📧 Mail - A Single-Page Email Client
 🔗 Live Demo: Try the App Here
 
 📜 Overview
