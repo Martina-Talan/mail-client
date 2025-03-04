@@ -72,7 +72,7 @@ Mail is a single-page web application built using Django, JavaScript, HTML, and 
 #### 🔗 API Routes
 ##### The app communicates with the backend via an API:
 
-####### Method	Endpoint	Description
+###### Method	Endpoint	Description
 - GET	/emails/<mailbox>	Fetch emails from Inbox, Sent, or Archive.
 - GET	/emails/<int:email_id>	Retrieve a single email’s details.
 - POST	/emails	Send a new email.
