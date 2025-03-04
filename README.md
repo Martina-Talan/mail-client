@@ -52,37 +52,37 @@ Mail is a single-page web application built using Django, JavaScript, HTML, and 
 
 ##### Then open your browser and go to: http://127.0.0.1:8000/
 
-📌 Usage
-1️⃣ Register/Login
-Click on Register to create an account.
-Log in using your registered credentials.
-2️⃣ Compose and Send Emails
-Click Compose to write a new email.
-Enter a recipient (must be registered), subject, and message.
-Click Send to deliver the email.
-3️⃣ View Mailboxes
-Inbox: Displays received emails.
-Sent: Shows emails you have sent.
-Archived: Stores archived emails.
-4️⃣ Read and Interact with Emails
-Click on an email to open and read it.
-Mark as read/unread.
-Archive/Unarchive emails to organize them.
-Click Reply to respond to an email.
-🔗 API Routes
-The app communicates with the backend via an API:
+### 📌 Usage
+#### 1️⃣ Register/Login
+- Click on Register to create an account.
+- Log in using your registered credentials.
+#### 2️⃣ Compose and Send Emails
+- Click Compose to write a new email.
+- Enter a recipient (must be registered), subject, and message.
+- Click Send to deliver the email.
+#### 3️⃣ View Mailboxes
+- Inbox: Displays received emails.
+- Sent: Shows emails you have sent.
+- Archived: Stores archived emails.
+#### 4️⃣ Read and Interact with Emails
+- Click on an email to open and read it.
+- Mark as read/unread.
+- Archive/Unarchive emails to organize them.
+- Click Reply to respond to an email.
+#### 🔗 API Routes
+##### The app communicates with the backend via an API:
 
-Method	Endpoint	Description
-GET	/emails/<mailbox>	Fetch emails from Inbox, Sent, or Archive.
-GET	/emails/<int:email_id>	Retrieve a single email’s details.
-POST	/emails	Send a new email.
-PUT	/emails/<int:email_id>	Update email (mark as read/unread, archive/unarchive).
-🛠️ Technologies Used
-Django – Backend framework
-JavaScript (ES6) – Dynamic frontend interactions
-HTML & CSS – Structure and styling
-Bootstrap – Responsive design
+####### Method	Endpoint	Description
+- GET	/emails/<mailbox>	Fetch emails from Inbox, Sent, or Archive.
+- GET	/emails/<int:email_id>	Retrieve a single email’s details.
+- POST	/emails	Send a new email.
+- PUT	/emails/<int:email_id>	Update email (mark as read/unread, archive/unarchive).
+### 🛠️ Technologies Used
+- Django – Backend framework
+- JavaScript (ES6) – Dynamic frontend interactions
+- HTML & CSS – Structure and styling
+- Bootstrap – Responsive design
 
-🏆 Acknowledgments
-This project is part of the Harvard CS50W: Web Programming with Python and JavaScript course.
+#### 🏆 Acknowledgments
+- This project is part of the Harvard CS50W: Web Programming with Python and JavaScript course.
 
