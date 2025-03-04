@@ -21,34 +21,36 @@ Mail is a single-page web application built using Django, JavaScript, HTML, and 
 - git clone https://github.com/Martina-Talan/mail.git
 - cd mail
 ##### 2️⃣ Install Dependencies
-Ensure you have Python and Django installed, then install the required dependencies:
+###### Ensure you have Python and Django installed, then install the required dependencies:
 
-sh
-Copy
-Edit
-pip install -r requirements.txt
-3️⃣ Apply Migrations
-Run the following command to set up the database:
+- sh
+- Copy
+- Edit
+- pip install -r requirements.txt
+##### 3️⃣ Apply Migrations
+###### Run the following command to set up the database:
 
-sh
-Copy
-Edit
-python manage.py migrate
-4️⃣ Create a Superuser (Optional)
-To access the Django admin panel:
+-sh
+- Copy
+- Edit
+- python manage.py migrate
 
-sh
-Copy
-Edit
-python manage.py createsuperuser
-5️⃣ Start the Development Server
-Run the development server:
+##### 4️⃣ Create a Superuser (Optional)
+###### To access the Django admin panel:
 
-sh
-Copy
-Edit
-python manage.py runserver
-Then open your browser and go to: http://127.0.0.1:8000/
+- sh
+- Copy
+- Edit
+- python manage.py createsuperuser
+##### 5️⃣ Start the Development Server
+###### Run the development server:
+
+- sh
+- Copy
+- Edit
+- python manage.py runserver
+
+##### Then open your browser and go to: http://127.0.0.1:8000/
 
 📌 Usage
 1️⃣ Register/Login
