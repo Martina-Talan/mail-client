@@ -62,13 +62,13 @@ python manage.py runserver
 
 
 ### 📌 Usage
- &nbsp;1️⃣ Register/Login – Create an account and log in.
+ &nbsp;&nbsp;&nbsp;1️⃣ Register/Login – Create an account and log in.
  
- 2️⃣ Compose & Send – Write emails and send them.
+ &nbsp;&nbsp;&nbsp;2️⃣ Compose & Send – Write emails and send them.
  
- 3️⃣ View Mailboxes – Inbox (received emails), Sent (sent emails), Archive (stored emails).
+ &nbsp;&nbsp;&nbsp;3️⃣ View Mailboxes – Inbox (received emails), Sent (sent emails), Archive (stored emails).
  
- 4️⃣ Read & Manage Emails – Open, mark as read/unread, archive/unarchive, reply.
+ &nbsp;&nbsp;&nbsp;4️⃣ Read & Manage Emails – Open, mark as read/unread, archive/unarchive, reply.
  
 
 ### 🔗 API Routes
