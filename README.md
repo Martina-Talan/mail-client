@@ -25,10 +25,13 @@ Mail is a single-page web application built with Django and JavaScript. It simul
 - 🔗 Open the app at: http://127.0.0.1:8000/
 
 #### 📌 Usage
-- 1️⃣ Register/Login – Create an account and log in.
-- 2️⃣ Compose & Send – Write emails and send them.
-- 3️⃣ View Mailboxes – Inbox (received emails), Sent (sent emails), Archive (stored emails).
-- 4️⃣ Read & Manage Emails – Open, mark as read/unread, archive/unarchive, reply.
+ 1️⃣ Register/Login – Create an account and log in.
+ 
+ 2️⃣ Compose & Send – Write emails and send them.
+ 
+ 3️⃣ View Mailboxes – Inbox (received emails), Sent (sent emails), Archive (stored emails).
+ 
+ 4️⃣ Read & Manage Emails – Open, mark as read/unread, archive/unarchive, reply.
 
 #### 🔗 API Routes
 ##### Method	Endpoint	Description
