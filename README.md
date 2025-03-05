@@ -13,29 +13,29 @@ Mail is a single-page web application built with Django and JavaScript. It simul
 - Reply to Emails – Easily respond to messages.
 - Single Page Navigation – JavaScript updates views dynamically.
 #### 🛠️ Installation & Setup
-Clone the repository:
+##### Clone the repository:
 
 git clone https://github.com/Martina-Talan/mail.git
 
 cd mail
 
-Install dependencies:
+##### Install dependencies:
 
 pip install -r requirements.txt
 
-Apply database migrations:
+##### Apply database migrations:
 
 python manage.py migrate
 
-Create a superuser (optional for admin access):
+##### Create a superuser (optional for admin access):
 
 python manage.py createsuperuser
 
-Start the development server:
+##### Start the development server:
 
 python manage.py runserver
 
-Open the app in your browser: http://127.0.0.1:8000/
+##### Open the app in your browser: http://127.0.0.1:8000/
 
 #### 📌 Usage
  1️⃣ Register/Login – Create an account and log in.
