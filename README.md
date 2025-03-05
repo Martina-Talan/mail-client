@@ -2,6 +2,7 @@
 #### 🔗 Live Demo: Try the App Here
 
 
+
 ### 📜 Overview
 Mail is a single-page web application built with Django and JavaScript. It simulates an email client where users can send, receive, archive, and reply to emails. The app dynamically updates its UI using JavaScript for smooth navigation.
 
