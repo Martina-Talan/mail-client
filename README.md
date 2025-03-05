@@ -1,5 +1,5 @@
-### 📧 Mail - A Single-Page Email Client
-#### 🔗 Live Demo: Try the App Here
+## 📧 Mail - A Single-Page Email Client
+##### 🔗 Live Demo: Try the App Here
 
 
 
