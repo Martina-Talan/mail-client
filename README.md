@@ -66,10 +66,10 @@ python manage.py runserver
 
 ### 🔗 API Routes
 ##### Method	Endpoint	Description
-- GET	/emails/<mailbox>	Fetch emails from Inbox, Sent, or Archive.
-- GET	/emails/<int:email_id>	Retrieve a single email’s details.
-- POST	/emails	Send a new email.
-- PUT	/emails/<int:email_id>	Update email (read/unread, archive/unarchive).
+- GET	/emails/<mailbox>	- Fetch emails from Inbox, Sent, or Archive.
+- GET	/emails/<int:email_id>	- Retrieve a single email’s details.
+- POST	/emails	- Send a new email.
+- PUT	/emails/<int:email_id>	U- pdate email (read/unread, archive/unarchive).
 
 ### 🛠️ Technologies Used
 - Django – Backend
