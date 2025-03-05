@@ -77,11 +77,11 @@ python manage.py runserver
 ### 🛠️ Technologies Used
 - __Django__ – Backend
   
-- JavaScript – Frontend logic
+- __JavaScript__ – Frontend logic
   
-- HTML & CSS – UI structure
+- __HTML & CSS__ – UI structure
   
-- Bootstrap – Responsive design
+- __Bootstrap__ – Responsive design
 
 ### 🏆 Acknowledgments
 This project is part of the Harvard CS50W: Web Programming with Python and JavaScript course.
