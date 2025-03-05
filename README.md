@@ -1,5 +1,5 @@
 ## 📧 Mail - A Single-Page Email Client
-##### 🔗 Live Demo: Try the App Here
+##### 🔗 Live Demo: [Try the App Here](https://mail-client-l8qu.onrender.com)
 
 
 ### 📜 Overview
