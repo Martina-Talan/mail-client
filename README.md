@@ -8,7 +8,9 @@ Mail is a single-page web application built with Django and JavaScript. It simul
 
 ### 🚀 Features
 
-- User Authentication – Register and log in.
+**User Authentication**  
+Register and log in to your account.  
+
 
 - Compose Emails – Send emails to registered users.
   
