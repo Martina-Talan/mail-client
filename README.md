@@ -76,8 +76,11 @@ python manage.py runserver
 
 ### 🛠️ Technologies Used
 - Django – Backend
+- 
 - JavaScript – Frontend logic
+- 
 - HTML & CSS – UI structure
+- 
 - Bootstrap – Responsive design
 
 ### 🏆 Acknowledgments
