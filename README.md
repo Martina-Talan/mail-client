@@ -12,15 +12,15 @@ Mail is a single-page web application built with Django and JavaScript. It simul
 
 *Compose Emails* - Send emails to other registered users
 
-*Mailbox System* - View emails in Inbox, Sent, and Archive.  
+*Mailbox System* - View emails in Inbox, Sent, and Archive
 
-*Read/Unread Status* - Mark emails as read or unread.  
+*Read/Unread Status* - Mark emails as read or unread
 
-*Archive/Unarchive Emails* - Organize your inbox efficiently.   
+*Archive/Unarchive Emails* - Organize your inbox efficiently
 
-*Reply to Emails* - Easily respond to received messages.  
+*Reply to Emails* - Easily respond to received messages
 
-*Single Page Navigation* - Uses JavaScript to update views dynamically.  
+*Single Page Navigation* - Uses JavaScript to update views dynamically
 
   
 ### 🛠️ Installation & Setup
@@ -55,20 +55,23 @@ python manage.py runserver
 
 
 ### 📌 Usage
- &nbsp;&nbsp;&nbsp;1️⃣ Register/Login – Create an account and log in.
+ &nbsp;&nbsp;&nbsp;1️⃣ Register/Login – Create an account and log in
  
- &nbsp;&nbsp;&nbsp;2️⃣ Compose & Send – Write emails and send them.
+ &nbsp;&nbsp;&nbsp;2️⃣ Compose & Send – Write emails and send them
  
- &nbsp;&nbsp;&nbsp;3️⃣ View Mailboxes – Inbox (received emails), Sent (sent emails), Archive (stored emails).
+ &nbsp;&nbsp;&nbsp;3️⃣ View Mailboxes – Inbox (received emails), Sent (sent emails), Archive (stored emails)
  
- &nbsp;&nbsp;&nbsp;4️⃣ Read & Manage Emails – Open, mark as read/unread, archive/unarchive, reply.
+ &nbsp;&nbsp;&nbsp;4️⃣ Read & Manage Emails – Open, mark as read/unread, archive/unarchive, reply
  
 
 ### 🔗 API Routes
 ##### Method	Endpoint	Description
-*GET	/emails/<mailbox>*	- Fetch emails from Inbox, Sent, or Archive.
+*GET	/emails/<mailbox>*	- Fetch emails from Inbox, Sent, or Archive
+
 *GET	/emails/<int:email_id>*	- Retrieve a single email’s details.
+
 *POST	/emails* - Send a new email.
+
 *PUT	/emails/<int:email_id>*	- Update email (read/unread, archive/unarchive).
 
 ### 🛠️ Technologies Used
