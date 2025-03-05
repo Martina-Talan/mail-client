@@ -10,10 +10,15 @@ Mail is a single-page web application built with Django and JavaScript. It simul
   Compose Emails – Send emails to registered users.
   
   Mailbox System – View emails in Inbox, Sent, and Archive.
-- Read/Unread Status – Mark emails accordingly.
-- Archive/Unarchive – Organize your inbox.
-- Reply to Emails – Easily respond to messages.
-- Single Page Navigation – JavaScript updates views dynamically.
+  
+  Read/Unread Status – Mark emails accordingly.
+  
+  Archive/Unarchive – Organize your inbox.
+  
+  Reply to Emails – Easily respond to messages.
+  
+  Single Page Navigation – JavaScript updates views dynamically.
+  
 #### 🛠️ Installation & Setup
 ##### Clone the repository:
 
