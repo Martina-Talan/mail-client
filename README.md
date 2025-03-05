@@ -23,10 +23,11 @@ Mail is a single-page web application built with Django and JavaScript. It simul
   
 #### 🛠️ Installation & Setup
 ##### Clone the repository:
+```
+  git clone https://github.com/Martina-Talan/mail.git
 
-- git clone https://github.com/Martina-Talan/mail.git
-
-- cd mail
+   cd mail
+```
 
 ##### Install dependencies:
 
