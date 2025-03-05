@@ -9,25 +9,32 @@ Mail is a single-page web application built with Django and JavaScript. It simul
 ### 🚀 Features
 
 *User Authentication*
-<pre> Register and log in to your account
+
+ Register and log in to your account
 
 *Compose Emails*
-&nbsp;Send emails to other registered users
+
+  Send emails to other registered users
 
 *Mailbox System*
-&nbsp;View emails in Inbox, Sent, and Archive.  
+
+  View emails in Inbox, Sent, and Archive.  
 
 *Read/Unread Status*
-&nbsp;Mark emails as read or unread.  
+  
+  Mark emails as read or unread.  
 
 *Archive/Unarchive Emails*
-&nbsp;Organize your inbox efficiently.   
+  
+  Organize your inbox efficiently.   
 
 *Reply to Emails*
-&nbsp;Easily respond to received messages.  
+
+  Easily respond to received messages.  
 
 *Single Page Navigation*
-&nbsp;Uses JavaScript to update views dynamically.  
+
+  Uses JavaScript to update views dynamically.  
 
   
 ### 🛠️ Installation & Setup
