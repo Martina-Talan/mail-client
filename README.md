@@ -62,7 +62,7 @@ python manage.py runserver
 
 
 ### 📌 Usage
- 1️⃣ Register/Login – Create an account and log in.
+ &nbsp;1️⃣ Register/Login – Create an account and log in.
  
  2️⃣ Compose & Send – Write emails and send them.
  
