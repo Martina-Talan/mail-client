@@ -1,9 +1,12 @@
 ## 📧 Mail - A Single-Page Email Client
 ##### 🔗 Live Demo: [Try the App Here](https://mail-client-l8qu.onrender.com)
 
+--- 
 
 ### 📜 Overview
 Mail is a single-page web application built with Django and JavaScript. It simulates an email client where users can send, receive, archive, and reply to emails. The app dynamically updates its UI using JavaScript for smooth navigation.
+
+--- 
 
 ### 🚀 Features
 
@@ -21,7 +24,8 @@ Mail is a single-page web application built with Django and JavaScript. It simul
 
 ✅ **Single Page Navigation** – Uses JavaScript to update views dynamically
 
-  
+---
+
 ### 🛠️ Installation & Setup
 ##### Clone the repository:
 ```sh
@@ -49,19 +53,18 @@ python manage.py createsuperuser
 ```sh
 python manage.py runserver
 ```
-
-##### Open the app in your browser: http://127.0.0.1:8000/
-
+---
 
 ### 📌 Usage
-1️⃣ **Register/Login** – Create an account and log in
+✅ **Register/Login** – Create an account and log in
  
-2️⃣ **Compose & Send** – Write emails and send them
+✅ **Compose & Send** – Write emails and send them
  
-3️⃣ **View Mailboxes** – Inbox (received emails), Sent (sent emails), Archive (stored emails)
+✅ **View Mailboxes** – Inbox (received emails), Sent (sent emails), Archive (stored emails)
  
-4️⃣ **Read & Manage Emails** – Open, mark as read/unread, archive/unarchive, reply
+✅ **Read & Manage Emails** – Open, mark as read/unread, archive/unarchive, reply
  
+--- 
 
 ### 🔗 API Routes
 
@@ -72,6 +75,7 @@ python manage.py runserver
 | **POST** | `/emails` | Send a new email |
 | **PUT** | `/emails/<int:email_id>` | Update email (mark as read/unread, archive/unarchive) |
 
+--- 
 
 ### 🛠️ Technologies Used
 - __Django__ – Backend
@@ -81,6 +85,8 @@ python manage.py runserver
 - __HTML & CSS__ – UI structure
   
 - __Bootstrap__ – Responsive design
+
+---
 
 ### 🏆 Acknowledgments
 This project is part of the Harvard CS50W: Web Programming with Python and JavaScript course.
