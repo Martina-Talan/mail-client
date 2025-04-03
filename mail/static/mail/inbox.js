@@ -1,4 +1,5 @@
-let currentMailbox = 'inbox'; 
+console.log("JS is working!");
+var currentMailbox = 'inbox'; 
 
 document.addEventListener('DOMContentLoaded', function() {
 
@@ -157,7 +158,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
   // Send email
-  function send() {
+  function send(event) {
+    event.preventDefault();
+  
     const recipients = document.querySelector('#compose-recipients').value;
     const subject = document.querySelector('#compose-subject').value;
     const body = document.querySelector('#compose-body').value;
@@ -172,7 +175,7 @@ document.addEventListener('DOMContentLoaded', function() {
     })
     .then(response => response.json())
     .then(result => {
-      console.log(result); 
+      console.log("Email sent response:", result); 
       load_mailbox('sent');
     });
   }

@@ -1,28 +1,93 @@
 textarea {
     min-height: 400px;
-
   }
   
 body {
-    background: rgb(238, 235, 235);
+    background-color: #e6f0ff;
     padding-top: 15px;
   }
 
-.email {
-    border: 1px solid black;
-    padding: 10px;
-    margin: 10px;
+  .email {
+    background-color: white;
+    border-left: 5px solid #007bff;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    cursor: pointer;
+  }
+  
+  .email:hover {
+    transform: scale(1.01);
+    box-shadow: 0 6px 15px rgba(0, 123, 255, 0.2);
+  }
+  
+  .email b {
+    color: #007bff;
+    margin-right: 10px;
+  }
+  
+  .email div {
+    margin-bottom: 5px;
+  }
+
+/* Register and Login Page Styling */
+.register-container {
+  max-width: 500px;
+  margin: 200px auto;
+  padding: 50px;
+  background: rgba(255, 255, 255, 0.07);
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  color: black;
+  backdrop-filter: blur(10px);
 }
+
+.register-container h2 {
+  font-size: 2.2rem;
+  margin-bottom: 25px;
+  text-align: center;
+  color: black;
+}
+
+.register-container .form-group {
+  margin-bottom: 30px;
+}
+
+.register-container .form-control {
+  padding: 16px 16px;
+  font-size: 1.1rem;
+  border-radius: 6px;
+ 
+  background-color: transparent;
+  color: black;
+}
+
+.register-container .form-control::placeholder {
+  color: rgba(127, 125, 125, 0.5);
+}
+
+.register-container a {
+  font-size: 16px;
+  display: block;
+  text-align: center;
+
+  color: var(--accent-color);
+  text-decoration: underline;
+}
+
 
 #email-body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
   margin-bottom: 20px;
+  background-color: white;
 }
 
 #email-body .timestamp {
   font-size: 0.8em;
-  color: grey;
+  background-color: white;
 }
 
 #email-body .sender {
